@@ -65,8 +65,6 @@ client.on("message", message => {
     return;
     if(message.content == `<@${client.user.id}>` || message.content == `<@!${client.user.id}>`) {
 
-  //  message.react('🇭')
-
     const valley = new Discord.MessageEmbed()
 
 
@@ -75,19 +73,6 @@ client.on("message", message => {
 
     message.channel.send(valley)
     } 
-    /*if(message.author.id === "758051140876238889") {
-      message.react('🎅');
-  }*/
- /* let embed = new Discord.MessageEmbed()
-
-  .setDescription('lsgw.hyaxe.cloud:8888')
-  .setColor("#000000")
-  if(message.content === 'ip', 'IP', 'Ip'){
-      
-  message.reply(embed);
-
-  }*/
-
 });
 
 

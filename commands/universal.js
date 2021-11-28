@@ -3,18 +3,19 @@ const prefix = ".";
 
 module.exports.run = (client,message) =>{
   var list =[
-    "https://i.imgur.com/ifUCFzu.jpeg"
+    "https://i.imgur.com/JKXiVrd.jpeg"
   ]
   var rand = list[Math.floor(Math.random() * list.length)];
 
 
     const newEmbed = new Discord.MessageEmbed()
-      .setColor('#0000CD')
+      .setColor('#6A5ACD')
       .setImage(rand)
       .setThumbnail(client.user.displayAvatarURL({format:"png"}))
-      .setTitle('`STARDEW WIKI:`')
+      .setTitle('`Amores, Gostos e Ódios Universais:`\n\n')
       .setDescription(
-        `📢Veja alguns do comandos para diversão do homem mais inteligente do universo.\n
+        `💙**Amores:**\n\nAbóbora Dourada\nFragmento Prismático\nRabbits foot\nPérola\nDoce-Pedra Mágico\n\n
+        💌Gostos:
         `,
       )
       .setFooter(

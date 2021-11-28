@@ -30,7 +30,7 @@ module.exports.run = async (client, message, params) => {
             const notFound = new discord.MessageEmbed()
 
             .setColor("#FF6347")
-            .setDescription("Isto não é um amor universal. Amores Universais: Abóbora Dourada, Fragmento Prismático, Pé de Coelho, Pérola e Doce-Pedra Mágico.")
+            .setDescription("Isto não é um amor universal. Amores Universais: Abóbora Dourada, Fragmento Prismático, Rabbits foot, Pérola e Doce-Pedra Mágico.")
             message.channel.send(notFound)
                 .catch(error => console.log(error));
         }
